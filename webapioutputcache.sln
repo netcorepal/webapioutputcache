@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2005
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetCorePal.WebApi.OutputCache", "NetCorePal.WebApi.OutputCache\NetCorePal.WebApi.OutputCache.csproj", "{716A9434-FF55-44EF-8496-E5E83BDD2ABC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetCorePal.WebApi.OutputCache.Memcached", "NetCorePal.WebApi.OutputCache.Memcached\NetCorePal.WebApi.OutputCache.Memcached.csproj", "{ECE6E03D-B65D-4080-BF70-C574120986B5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetCorePal.WebApi.OutputCache.Test", "NetCorePal.WebApi.OutputCache.Test\NetCorePal.WebApi.OutputCache.Test.csproj", "{958BF438-5FDD-42AD-AD90-44272F0CEBFD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{716A9434-FF55-44EF-8496-E5E83BDD2ABC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{716A9434-FF55-44EF-8496-E5E83BDD2ABC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{716A9434-FF55-44EF-8496-E5E83BDD2ABC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{716A9434-FF55-44EF-8496-E5E83BDD2ABC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ECE6E03D-B65D-4080-BF70-C574120986B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECE6E03D-B65D-4080-BF70-C574120986B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECE6E03D-B65D-4080-BF70-C574120986B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECE6E03D-B65D-4080-BF70-C574120986B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{958BF438-5FDD-42AD-AD90-44272F0CEBFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{958BF438-5FDD-42AD-AD90-44272F0CEBFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{958BF438-5FDD-42AD-AD90-44272F0CEBFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{958BF438-5FDD-42AD-AD90-44272F0CEBFD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C72597E1-7080-4105-865B-E8323DAA5769}
+	EndGlobalSection
+EndGlobal
