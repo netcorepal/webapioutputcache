@@ -7,17 +7,17 @@ using System.Collections.Specialized;
 namespace NetCorePal.WebApi.OutputCache.Memcached
 {
     /// <summary>
-    /// memcache提供程序
+    /// memcache provider
     /// </summary>
     public class MemcachedApiOutputCacheProvider : ApiOutputCacheProvider
     {
         IMemcachedClient client;
         private string prefix = string.Empty;
         /// <summary>
-        /// 构造函数
+        /// 
         /// </summary>
-        /// <param name="sectionName"></param>
-        /// <param name="prefix"></param>
+        /// <param name="sectionName">memcached sectionName</param>
+        /// <param name="prefix">cache key prefix</param>
         public MemcachedApiOutputCacheProvider(string sectionName, string prefix)
         {
             this.client = new MemcachedClient(sectionName);

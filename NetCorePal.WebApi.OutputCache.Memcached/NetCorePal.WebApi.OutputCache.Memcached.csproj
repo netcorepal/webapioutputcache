@@ -12,8 +12,16 @@
     <RepositoryUrl>https://github.com/netcorepal/webapioutputcache.git</RepositoryUrl>
   </PropertyGroup>
 
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DocumentationFile>bin\Release\net45\NetCorePal.WebApi.OutputCache.Memcached.xml</DocumentationFile>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile>bin\Debug\net45\NetCorePal.WebApi.OutputCache.Memcached.xml</DocumentationFile>
+  </PropertyGroup>
+
   <ItemGroup>
-    <PackageReference Include="EnyimMemcached" Version="2.16.0" />
+    <PackageReference Include="EnyimMemcached" Version="2.7.0" />
   </ItemGroup>
 
   <ItemGroup>

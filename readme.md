@@ -52,6 +52,8 @@ Install-Package NetCorePal.WebApi.OutputCache
 
 # NetCorePal.WebApi.OutputCache.Memcached
 
+using  EnyimMemcached
+
 ## Install
 
 ```
@@ -69,4 +71,26 @@ Install-Package NetCorePal.WebApi.OutputCache.Memcached
             //your code
         }
     }
+```
+
+
+#### config
+
+configSections节添加memcached、globalOutputCacheSettings
+```
+  <configSections>
+    <section name="memcached" type="Enyim.Caching.Configuration.MemcachedClientSection, Enyim.Caching" />
+  </configSections>
+```
+
+memcached config for EnyimMemcached[see](https://github.com/enyim/EnyimMemcached/wiki/MemcachedClient-Configuration)
+```
+  <memcached protocol="Binary">
+    <servers>
+      <add address="127.0.0.1" port="11211" />
+    </servers>
+    <socketPool maxPoolSize="50" />
+    <!--<locator type="MemcachedSessionProvider.SessionNodeLocator, MemcachedSessionProvider" />-->
+    <!--<authentication type="Enyim.Caching.Memcached.PlainTextAuthenticator, Enyim.Caching" userName="" password="" zone="" />-->
+  </memcached>
 ```
