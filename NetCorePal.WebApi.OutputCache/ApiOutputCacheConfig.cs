@@ -23,7 +23,7 @@ namespace NetCorePal.WebApi.OutputCache
         /// <param name="provider"></param>
         public static void SetDefaultProvider(ApiOutputCacheProvider provider)
         {
-            DefaultProvider = provider;
+            DefaultProvider = provider ?? throw new ArgumentNullException(nameof(provider));
         }
 
         /// <summary>
