@@ -1,6 +1,17 @@
 ﻿# NetCorePal.WebApi.OutputCache
 OutputCache for ASP.NET WebApi
 
+支持httpget请求的缓存
+
+支持设置VaryByParam
+
+支持设置VaryByMediaType
+
+支持设置自定义VaryByCustom
+
+支持设置缓存位置Location
+
+支持memcached提供程序
 
 ## Install
 
