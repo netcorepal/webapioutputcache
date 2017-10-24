@@ -3,11 +3,16 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27004.2005
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetCorePal.WebApi.OutputCache", "NetCorePal.WebApi.OutputCache\NetCorePal.WebApi.OutputCache.csproj", "{716A9434-FF55-44EF-8496-E5E83BDD2ABC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetCorePal.WebApi.OutputCache", "NetCorePal.WebApi.OutputCache\NetCorePal.WebApi.OutputCache.csproj", "{716A9434-FF55-44EF-8496-E5E83BDD2ABC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetCorePal.WebApi.OutputCache.Memcached", "NetCorePal.WebApi.OutputCache.Memcached\NetCorePal.WebApi.OutputCache.Memcached.csproj", "{ECE6E03D-B65D-4080-BF70-C574120986B5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetCorePal.WebApi.OutputCache.Memcached", "NetCorePal.WebApi.OutputCache.Memcached\NetCorePal.WebApi.OutputCache.Memcached.csproj", "{ECE6E03D-B65D-4080-BF70-C574120986B5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetCorePal.WebApi.OutputCache.Test", "NetCorePal.WebApi.OutputCache.Test\NetCorePal.WebApi.OutputCache.Test.csproj", "{958BF438-5FDD-42AD-AD90-44272F0CEBFD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetCorePal.WebApi.OutputCache.Test", "NetCorePal.WebApi.OutputCache.Test\NetCorePal.WebApi.OutputCache.Test.csproj", "{958BF438-5FDD-42AD-AD90-44272F0CEBFD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{DD53F25C-9756-405D-B05A-B9A911476AF7}"
+	ProjectSection(SolutionItems) = preProject
+		readme.md = readme.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

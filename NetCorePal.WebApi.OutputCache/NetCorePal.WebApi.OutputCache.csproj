@@ -2,6 +2,15 @@
 
   <PropertyGroup>
     <TargetFramework>net45</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Authors>netcorepal</Authors>
+    <Company>netcorepal</Company>
+    <Description>outputcache for asp.net webapi</Description>
+    <RepositoryType>git</RepositoryType>
+    <PackageProjectUrl>https://github.com/netcorepal/webapioutputcache</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/netcorepal/webapioutputcache.git</RepositoryUrl>
+    <Version>1.0.0</Version>
+    <PackageTags>netcorepal webapi outputcache cache</PackageTags>
   </PropertyGroup>
 
   <ItemGroup>

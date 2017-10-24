@@ -3,6 +3,13 @@
   <PropertyGroup>
     <TargetFramework>net45</TargetFramework>
     <RootNamespace>NetCorePal.WebApi.OutputCache.Memcached</RootNamespace>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Authors>netcorepal</Authors>
+    <Company>netcorepal</Company>
+    <PackageTags>netcorepal webapi outputcache cache memcached</PackageTags>
+    <Description>outputcache for asp.net webapi memcached provider</Description>
+    <PackageProjectUrl>https://github.com/netcorepal/webapioutputcache</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/netcorepal/webapioutputcache.git</RepositoryUrl>
   </PropertyGroup>
 
   <ItemGroup>
